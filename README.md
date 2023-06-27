@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Camera Recorder Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Camera Recorder Web App is a user-friendly application that allows users to record videos using their device's camera and instantly view and review the recorded videos. The app provides a seamless and intuitive interface for capturing high-quality videos and offers the flexibility to re-record as needed.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Video Recording: Users can capture videos using their device's camera with just a few clicks. The app utilizes the device's camera capabilities to ensure high-quality video recording.
 
-### `yarn start`
+- Preview and Review: After recording a video, users can immediately preview the captured footage within the app. This feature enables users to review their videos before saving them or deciding to re-record.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Re-recording: If users are not satisfied with their recorded video, they can choose to re-record it without any hassle. The app offers a simple and straightforward re-recording option, allowing users to try again until they achieve their desired result.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Save and Share: Once satisfied with a recorded video, users can save it to their device or share it directly with others through various platforms such as social media, messaging apps, or email.
 
-### `yarn test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To use the Camera Recorder Web App, follow these steps:
 
-### `yarn build`
+1. Visit the following link: camera-recorder.vercel.app.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Grant camera access: When prompted, allow the app to access your device's camera.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Recording a Video: On the web app's interface, you will see a "Record" button. Click it to start recording your video. A timer will indicate the duration of your recording.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Previewing and Reviewing: After finishing the recording, the app will automatically switch to a preview mode. Here, you can review the recorded video and decide whether to save or re-record it.
 
-### `yarn eject`
+5. Re-recording: If you're not satisfied with the recorded video, click the "Re-record" button to discard the current video and start a new recording. Repeat the recording process until you're satisfied with the result.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+6. Saving and Sharing: When you're happy with a recorded video, click the "Save" button to download it to your device. You can then share the video using your preferred methods.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Support
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+If you encounter any issues, have questions, or would like to provide feedback, please contact our support team at support@camerarecorderapp.com. We are here to assist you and continually improve the app based on user feedback.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The Camera Recorder Web App is available under the MIT License. Feel free to modify and distribute the app following the terms and conditions of the license.
