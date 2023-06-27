@@ -24,10 +24,6 @@ To use the Camera Recorder Web App, follow these steps:
 
 5. Re-recording: If you're not satisfied with the recorded video, click the "Re-record" button to discard the current video and start a new recording. Repeat the recording process until you're satisfied with the result.
 
-## Support
-
-If you encounter any issues, have questions, or would like to provide feedback, please contact our support team at support@camerarecorderapp.com. We are here to assist you and continually improve the app based on user feedback.
-
 ## License
 
 The Camera Recorder Web App is available under the MIT License. Feel free to modify and distribute the app following the terms and conditions of the license.
