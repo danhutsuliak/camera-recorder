@@ -10,8 +10,6 @@ The Camera Recorder Web App is a user-friendly application that allows users to 
 
 - Re-recording: If users are not satisfied with their recorded video, they can choose to re-record it without any hassle. The app offers a simple and straightforward re-recording option, allowing users to try again until they achieve their desired result.
 
-- Save and Share: Once satisfied with a recorded video, users can save it to their device or share it directly with others through various platforms such as social media, messaging apps, or email.
-
 ## Usage
 
 To use the Camera Recorder Web App, follow these steps:
@@ -20,13 +18,11 @@ To use the Camera Recorder Web App, follow these steps:
 
 2. Grant camera access: When prompted, allow the app to access your device's camera.
 
-3. Recording a Video: On the web app's interface, you will see a "Record" button. Click it to start recording your video. A timer will indicate the duration of your recording.
+3. Recording a Video: On the web app's interface, you will see a "Start Recording" button. Click it to start recording your video. A timer will indicate the duration of your recording.
 
 4. Previewing and Reviewing: After finishing the recording, the app will automatically switch to a preview mode. Here, you can review the recorded video and decide whether to save or re-record it.
 
 5. Re-recording: If you're not satisfied with the recorded video, click the "Re-record" button to discard the current video and start a new recording. Repeat the recording process until you're satisfied with the result.
-
-6. Saving and Sharing: When you're happy with a recorded video, click the "Save" button to download it to your device. You can then share the video using your preferred methods.
 
 ## Support
 
