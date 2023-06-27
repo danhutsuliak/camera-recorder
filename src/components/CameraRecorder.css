@@ -1,0 +1,55 @@
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: fit-content;
+}
+
+button {
+  padding: 16px 8px;
+  font-size: large;
+  font-weight: bold;
+  color: whitesmoke;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+  transition: all .2s;
+}
+
+button:hover {
+  filter: brightness(85%);
+}
+
+.startRec {
+  background-color: green;
+}
+
+.stopRec {
+  background-color: red;
+}
+
+.reRec {
+  background-color: blue;
+}
+
+.disabled {
+  opacity: .3;
+}
+
+.loadingFilter {
+  filter: brightness(50%);
+}
+
+.webcam-container {
+  position: relative;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+}
