@@ -2,7 +2,7 @@ import React, { useCallback, useRef, useState } from 'react';
 import Webcam from 'react-webcam';
 import gifshot from 'gifshot';
 
-import './CameraRecorder.css'
+import './CameraRecorder.css';
 
 const CameraRecorder = () => {
   const [gifData, setGifData] = useState(null);
@@ -15,7 +15,7 @@ const CameraRecorder = () => {
   const videoConstraints = {
     width: 420,
     height: 420,
-    facingMode: "user",
+    facingMode: 'user',
   };
 
   const frameRate = 100;
@@ -55,11 +55,20 @@ const CameraRecorder = () => {
     });
   }, [recordedFrames]);
 
+  const downloadGif = useCallback(() => {
+    if (gifData) {
+      const link = document.createElement('a');
+      link.href = gifData;
+      link.download = 'recorded.gif';
+      link.click();
+    }
+  }, [gifData]);
+
   return (
     <div className="container">
       {!gifData ? (
         <>
-          <div className='webcam-container'>
+          <div className="webcam-container">
             <Webcam
               audio={false}
               mirrored={true}
@@ -70,19 +79,43 @@ const CameraRecorder = () => {
               videoConstraints={videoConstraints}
               className={`${loader && 'loadingFilter'}`}
             />
-            {loader && <div className='loader'>Loading...</div>}
+            {loader && <div className="loader">Loading...</div>}
           </div>
           {recording ? (
-            <button onClick={stopRecording} className={`stopRec ${loader && 'disabled'}`} disabled={loader}>Stop Recording</button>
+            <button
+              onClick={stopRecording}
+              className={`stopRec ${loader && 'disabled'}`}
+              disabled={loader}
+            >
+              Stop Recording
+            </button>
           ) : (
-            <button onClick={startRecording} className={`startRec ${loader && 'disabled'}`} disabled={loader}>Start Recording</button>
+            <button
+              onClick={startRecording}
+              className={`startRec ${loader && 'disabled'}`}
+              disabled={loader}
+            >
+              Start Recording
+            </button>
           )}
         </>
       ) : (
         <>
           <img src={gifData} alt="Recorded GIF" />
           <h2>Preview video</h2>
-          <button onClick={() => setGifData(null)} className={`reRec ${loader && 'disabled'}`} disabled={loader}>Re-record</button>
+          <button
+            onClick={downloadGif}
+            className={`downloadGif`}
+          >
+            Download GIF
+          </button>
+          <button
+            onClick={() => setGifData(null)}
+            className={`reRec ${loader && 'disabled'}`}
+            disabled={loader}
+          >
+            Re-record
+          </button>
         </>
       )}
     </div>
